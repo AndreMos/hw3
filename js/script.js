@@ -165,8 +165,8 @@ nodes.exit().remove();
         // Part 3 - обновить содержимое tooltip с использованием классов title и year
         // ..
         //tooltip.style("visibility", "visible").text('asdfvf');
-        tooltip
-          .style("opacity", 1).style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").text(d['title']+', '+d['release year']);
+        //tooltip
+          //.style("opacity", 1).style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px").text(d['title']+', '+d['release year']);
 
         // Part 3 - изменить display и позицию tooltip
         // ..
@@ -178,7 +178,7 @@ nodes.exit().remove();
 
         // Part 3 - изменить display у tooltip
         // ..
-        tooltip.style("opacity", 0)
+        //tooltip.style("opacity", 0)
     }
 
     function overArc(d){
